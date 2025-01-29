@@ -1,55 +1,89 @@
 const workHistory = [
-    {
-        companyName : 'Verizon',
-        role: 'Senior Software Engineer',
-        duration: "Jan'21 – Present",
-        workDes: [
-            'Leading the development of our internal tools application used to monitor application performance by developing automated scripts to build out new sites and improve monitoring.',
-            'Leading the orchestration of Verizon’s Multi-Access Edge Computing (MEC) to ensure zero downtime for users while continuing to scale.'
-        ],
-        exposer: ["Python", "PHP", "Ansible", "OpenShift", "Kubernetes", "OpenStack", "GitLab"] ,
-        link: 'https://verizon.com/',
-        id: 1
-    },
-    {
-        companyName: 'Boeing',
-        role: 'Lead Full Stack Developer',
-        duration: "Jan'19 – Dec'20",
-        workDes: [
-            'Lead a team of five junior developers to develop the frontend and backend of eight crucial Boeing fleet operations applications used to support airline customers, as well as managing the code integration and deployments'
-        ],
-        exposer: ["Angular", "Java", "SpringBoot", "PrimeNG" , "SQL", "ApacheSolr", "Jenkins", "GitLab"],
-        link: 'https://boeing.com/',
-        id: 2
-    },
-    {
-        companyName: 'Boeing',
-        role: 'Full Stack Developer',
-        duration: "June'15 – Jan'19",
-        workDes: [
-            'Developed software for Unmanned Underwater Vehicles (UUV) focused on batteries and vehicle topside/UI development',
-            'Developed added features and resolved issues for an enterprise account request system for employees to manage computing accounts and access',
-            'Developed the frontend and backend of an email encryption, calendar sharing, enforced TLS, and federated IM tool',
-            'Developed the frontend and backend of an enterprise airplane part management application',
-            'Developed added features focused on the UI as well as UX, and performed functional analyst testing for an enterprise opportunity matching application',
-            'Developed an augmented reality application for Google Tango that gives users the ability to attach virtual points using the geospatial location of an area as part of a hackathon – received 1st place'
-        ],
-        exposer: ["Angular", "React", "JavaScript", "Java", "C#", "Android", "C++","SpringBoot", "SQL", "Bootstrap", "SemanticUI", "Jenkins", "GitLab"],
-        link: 'https://boeing.com/',
-        id: 3
-    },
-    {
-        companyName: 'Boeing',
-        role: 'Application Developer Intern',
-        duration: "May'14 – Aug'14",
-        workDes: [
-            'Developed and maintained a large-scale airplane build plan application',
-            'Developed the frontend and backend for an IT Recruiting and Hiring application as a Boeing IT Intern special project',
-        ],
-        exposer: ["ColdFusion", "Bootstrap", "SQL"],
-        link: 'https://boeing.com/',
-        id: 4
-    }
+  {
+    companyName: "Verizon",
+    role: "Principal Software Engineer",
+    duration: "Jan'21 – Present",
+    workDes: [
+      "Leading the development and architecture of user-centric internal performance monitoring tools and self-service portal applications, focusing on dynamic and responsive UI/UX design. Utilized React for creating interactive components, Axios for API integration, Redis for caching, and Node.js for server-side logic.",
+      "Orchestrated the deployment of Verizon’s Multi-Access Edge Computing (MEC) on the Verizon Cloud Platform used for IoT device connectivity and supporting scalable edge computing environments. Implemented using Kubernetes, OpenStack, and CockroachDB for a robust cloud infrastructure management.",
+      "Automated the provisioning of new tenant spaces on the Verizon Cloud Platform through scripting, streamlining resource allocation, and reducing manual intervention. Leveraged OpenStack, Ansible, and Python for orchestration and automation tasks.",
+    ],
+    exposer: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Redis",
+      "PostgreSQL",
+      "Python",
+      "Ansible",
+      "Kubernetes",
+      "OpenStack",
+      "GitLab",
+    ],
+    link: "https://verizon.com/",
+    id: 1,
+  },
+  {
+    companyName: "Boeing",
+    role: "Lead Software Engineer",
+    duration: "Jan'19 – Dec'20",
+    workDes: [
+      "Directed a team of five developers in the end-to-end development of eight mission-critical fleet operations applications, ensuring continuous support for airline customers. Managed code integration, deployment pipelines, and version control using Java, Angular, Spring Boot, Apache Solr, SQL, Jenkins, and Git",
+    ],
+    exposer: [
+      "Angular",
+      "Java",
+      "JavaScript",
+      "SpringBoot",
+      "PrimeNG",
+      "SQL",
+      "ApacheSolr",
+      "Jenkins",
+      "GitLab",
+    ],
+    link: "https://boeing.com/",
+    id: 2,
+  },
+  {
+    companyName: "Boeing",
+    role: "Full Stack Software Engineer",
+    duration: "June'15 – Jan'19",
+    workDes: [
+      "Engineered software solutions for Unmanned Underwater Vehicles (UUV), focusing on battery management and navigation interfaces. Utilized C#, VB, Ada, and C++ to develop robust and reliable systems. Held DoD Secret Clearance.",
+      "Developed and maintained an enterprise account management application, providing employees with a streamlined interface for computing account requests and access management. Technologies used include Java, JavaScript, Bootstrap, SQL, Jenkins, and Git.",
+      "Created an enterprise airplane part management system to support engineers across multiple aircraft programs, utilizing Java, JavaScript, Bootstrap, SQL, and Git.",
+      "Designed and implemented an opportunity matching application to align rotational program employees with new career opportunities, leveraging C#, .NET MVC, JavaScript, Bootstrap, and SQL for a seamless user experience.",
+    ],
+    exposer: [
+      "Angular",
+      "React",
+      "JavaScript",
+      "Java",
+      "C#",
+      "Android",
+      "C++",
+      "SpringBoot",
+      "SQL",
+      "Bootstrap",
+      "SemanticUI",
+      "Jenkins",
+      "GitLab",
+    ],
+    link: "https://boeing.com/",
+    id: 3,
+  },
+  {
+    companyName: "Boeing",
+    role: "Application Developer Intern",
+    duration: "May'14 – Aug'14",
+    workDes: [
+      "Engineered a comprehensive IT Recruiting and Hiring application, integrating both frontend and backend components using Bootstrap and SQL. The application streamlined the hiring process and improved efficiency in managing job requisitions.",
+      "Maintained and optimized a critical build plan application for 737 aircraft production using ColdFusion. Implemented updates that improved application performance and reduced system downtime, supporting the production workflow.",
+    ],
+    exposer: ["ColdFusion", "Bootstrap", "SQL"],
+    link: "https://boeing.com/",
+    id: 4,
+  },
 ];
 
 export default workHistory;
