@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*@tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @font-face {
   font-family: CocoSharp;
   src: url(./Coco-Sharp-Regular-trial.ttf);
-  src: local('Coco-Sharp-Regular-trial'),
-  url(./Coco-Sharp-Regular-trial.ttf) format('truetype');
+  src: local("Coco-Sharp-Regular-trial"),
+    url(./Coco-Sharp-Regular-trial.ttf) format("truetype");
 }
 
 body {
@@ -36,11 +39,11 @@ body {
   background-color: #ff2e00;
 }
 
-.bg-josh-gray{
+.bg-josh-gray {
   background-color: #e7e6e6;
 }
 
-.bg-josh-blue{
+.bg-josh-blue {
   color: #60dafb;
 }
 
@@ -74,7 +77,7 @@ h1 {
 }
 
 .orange-text {
-  color: #ff2e00
+  color: #ff2e00;
 }
 
 h3 {
@@ -137,7 +140,7 @@ textarea {
   transform: scale(1.1);
 }
 .sk-folding-cube .sk-cube:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
